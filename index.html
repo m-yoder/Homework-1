@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>A-Frame Primitives</title>
+          <script src= "https://aframe.io/releases/1.7.0/aframe.min.js"> </script>
+    </head>
+    <body> 
+        <a-scene> 
+                <a-box
+                color="blue"
+                position="-7 5 -8"
+                rotation="45 0 0"
+                width="1"
+                height="1"
+                depth="1">
+                </a-box> 
+                <a-sphere
+                color="orange"
+                position="0 7 -8"
+                radius="1">
+                </a-sphere>
+                <a-cylinder
+                color="maroon"
+                position="7 5 -8"
+                rotation="30 30 0"
+                radius="2"
+                height="3">
+                </a-cylinder>
+                <a-cone
+                color="purple"
+                position="-5 0 -8"
+                rotation="0 120 90"
+                radius-bottom="2"
+                height="3">
+                </a-cone>
+                <a-plane
+                color="black"
+                position="0 0 -8"
+                rotation="60 0 -10"
+                width="2"
+                height="8">
+                </a-plane>
+                <a-text
+                value="Micah Yoder"
+                color="pink"
+                position="3 0 -10"
+                width="50">
+                </a-text>
+                <a-sky
+                color="lightskyblue">
+                </a-sky>
+        </a-scene>
+    </body>
+</html>
